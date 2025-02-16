@@ -1,0 +1,110 @@
+{
+	"abortar_control": [{
+		"gpio_port": 17
+	}],
+	"pantalla_lcd_control": [{
+		"pantalla_lcd": [{
+			"direccion": "0x27"
+		}]
+	}],
+	"dispositivo_control_remoto": [{
+		"control_remoto": [{
+			"dispositivo": "js0"
+		}]
+	}],
+	"control_movimiento": [{
+		"placa": [{
+			"pca9685": [{
+				"direccion": "0x40",
+				"velocidad_clock_referencia": 25000000,
+				"frecuencia": 50
+			}]
+		}],
+		"servos": [{
+			"hombro_posterior_izquierdo": [{
+				"pca9685": 1,
+				"canal": 0,
+				"min_pulso": 500,
+				"max_pulso": 2500,
+				"angulo_reposo": 90
+			}],
+			"brazo_posterior_izquierdo": [{
+				"pca9685": 1,
+				"canal": 1,
+				"min_pulso": 500,
+				"max_pulso": 2500,
+				"angulo_reposo": 90
+			}],
+			"pie_posterior_izquierdo": [{
+				"pca9685": 1,
+				"canal": 2,
+				"min_pulso": 500,
+				"max_pulso": 2500,
+				"angulo_reposo": 90
+			}],
+			"hombro_posterior_derecho": [{
+				"pca9685": 1,
+				"canal": 3,
+				"min_pulso": 500,
+				"max_pulso": 2500,
+				"angulo_reposo": 90
+			}],
+			"brazo_posterior_derecho": [{
+				"pca9685": 1,
+				"canal": 4,
+				"min_pulso": 500,
+				"max_pulso": 2500,
+				"angulo_reposo": 90
+			}],
+			"pie_posterior_derecho": [{
+				"pca9685": 1,
+				"canal": 5,
+				"min_pulso": 500,
+				"max_pulso": 2500,
+				"angulo_reposo": 90
+			}],
+			"hombro_anterior_izquierdo": [{
+				"pca9685": 2,
+				"canal": 0,
+				"min_pulso": 500,
+				"max_pulso": 2500,
+				"angulo_reposo": 90
+			}],
+			"brazo_anterior_izquierdo": [{
+				"pca9685": 2,
+				"canal": 1,
+				"min_pulso": 500,
+				"max_pulso": 2500,
+				"angulo_reposo": 90
+			}],
+			"pie_anterior_izquierdo": [{
+				"pca9685": 2,
+				"canal": 2,
+				"min_pulso": 500,
+				"max_pulso": 2500,
+				"angulo_reposo": 90
+			}],
+			"hombro_anterior_derecho": [{
+				"pca9685": 2,
+				"canal": 3,
+				"min_pulso": 500,
+				"max_pulso": 2500,
+				"angulo_reposo": 90
+			}],
+			"brazo_anterior_derecho": [{
+				"pca9685": 2,
+				"canal": 4,
+				"min_pulso": 500,
+				"max_pulso": 2500,
+				"angulo_reposo": 90
+			}],
+			"pie_anterior_derecho": [{
+				"pca9685": 2,
+				"canal": 5,
+				"min_pulso": 500,
+				"max_pulso": 2500,
+				"angulo_reposo": 90
+			}]
+		}]
+	}]
+}
