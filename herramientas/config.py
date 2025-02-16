@@ -19,7 +19,7 @@ class Singleton(type): # Clase que permite que solo se pueda instanciar una vez 
 
 
 class Config(metaclass=Singleton):
-    ABORTAR_CONTROL_GPIO_PORT = 'abortar_control[0].gpio_port'
+    CONTROL_DESHABILITAR_GPIO_PORT = 'control_deshabilitar[0].gpio_port'
     PANTALLA_LCD_CONTROL_I2C_DIRECCION = 'pantalla_lcd_control[0].pantalla_lcd[0].direccion'
     DISPOSITIVO_CONTROL_REMOTO = 'dispositivo_control_remoto[0].control_remoto[0].dispositivo'
 
@@ -167,7 +167,7 @@ class Config(metaclass=Singleton):
 
 if __name__ == "__main__":
     configuracion = Config() # Instancia la clase Config
-    print(configuracion.obtener('abortar_control[0].gpio_port')) # Imprime el valor del archivo de configuración
+    print(configuracion.obtener('control_deshabilitar[0].gpio_port')) # Imprime el valor del archivo de configuración
     print(configuracion.obtener('pantalla_lcd_control[0].pantalla_lcd[0].direccion')) # Imprime el valor del archivo de configuración
     print(configuracion.obtener('dispositivo_control_remoto[0].control_remoto[0].dispositivo')) # Imprime el valor del archivo de configuración
     print(configuracion.obtener('control_movimiento[*].placa[*].pca9685[*].direccion | [0] | [0] | [0]')) # Imprime el valor del archivo de configuración

@@ -1,5 +1,5 @@
 {
-	"abortar_control": [{
+	"control_deshabilitar": [{
 		"gpio_port": 17
 	}],
 	"pantalla_lcd_control": [{

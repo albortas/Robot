@@ -1,7 +1,7 @@
 import os
 from log import Logger
 
-log = Logger().configurar_logger('System')
+log = Logger().configurar_logger('Sistema')
 
 
 class Singleton(type):
