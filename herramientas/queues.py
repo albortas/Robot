@@ -1,4 +1,4 @@
-ABORT_CONTROLLER = 'abort_controller'
+ABORTAR_CONTROL = 'abortar_control'
 LCD_SCREEN_CONTROLLER = 'lcd_screen_controller'
 MOTION_CONTROLLER = 'motion_controller'
 REMOTE_CONTROLLER_CONTROLLER = 'remote_controller_controller'
